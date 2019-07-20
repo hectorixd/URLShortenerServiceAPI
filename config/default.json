@@ -1,0 +1,4 @@
+{
+  "mongoURI": mogodb, //insertar URI creada por mongoDB
+  "baseUrl": "http://localhost:5000"
+}

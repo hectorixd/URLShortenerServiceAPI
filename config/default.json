@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://hmtv16:mongo@Hmtv16@cluster0-2c12z.mongodb.net/test?retryWrites=true&w=majority",
-  "baseUrl": "http://localhost:5000"
-}

@@ -9,7 +9,7 @@ const Url = require('../models/Url');
 // @desc    Create short URL
 router.post('/shorten', async (req, res) => {
   const { longUrl } = req.body;
-  const baseUrl = process.env.PORT;
+  const baseUrl = `http://localhost:5000${process.env.PORT}`;
 
   // Check base url
   if (!validUrl.isUri(baseUrl)) {
